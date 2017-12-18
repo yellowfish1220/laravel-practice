@@ -1,0 +1,227 @@
+
+> @ dev D:\code\php\Laravel
+> npm run development
+
+
+> @ development D:\code\php\Laravel
+> cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js
+
+ ERROR  Failed to compile with 2 errors21:37:34
+
+ error  in ./resources/assets/sass/app.scss
+
+Module build failed: Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\php\Laravel\node_modules\sass-loader\lib\loader.js:3:14)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:13:17)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+
+ @ ./resources/assets/sass/app.scss 4:14-266
+ @ multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss
+
+ error  in ./resources/assets/sass/app.scss
+
+Module build failed: ModuleBuildError: Module build failed: Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\php\Laravel\node_modules\sass-loader\lib\loader.js:3:14)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:13:17)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+    at moduleFactory.create (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:456:10)
+    at factory (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:241:5)
+    at applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:94:13)
+    at D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:268:11
+    at NormalModuleFactory.params.normalModuleFactory.plugin (D:\code\php\Laravel\node_modules\webpack\lib\CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:272:13)
+    at runLoaders (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:195:19)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:364:11
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:170:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:27:11)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+    at moduleFactory.create (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:456:10)
+    at factory (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:241:5)
+    at applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:94:13)
+    at D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:268:11
+    at NormalModuleFactory.params.normalModuleFactory.plugin (D:\code\php\Laravel\node_modules\webpack\lib\CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:272:13)
+    at resolver (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:69:10)
+    at process.nextTick (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:194:7)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+     Asset     Size  Chunks                    Chunk Names
+\js\app.js  1.23 MB       0  [emitted]  [big]  \js\app
+
+ERROR in ./node_modules/css-loader?{"url":true,"sourceMap":false,"importLoaders":1}!./node_modules/postcss-loader/lib?{"sourceMap":true,"ident":"postcss","plugins":[null]}!./node_modules/resolve-url-loader?{"sourceMap":true,"root":"D://code//php//Laravel//node_modules"}!./node_modules/sass-loader/lib/loader.js?{"precision":8,"outputStyle":"expanded","sourceMap":true}!./resources/assets/sass/app.scss
+Module build failed: Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\php\Laravel\node_modules\sass-loader\lib\loader.js:3:14)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:13:17)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+ @ ./resources/assets/sass/app.scss 4:14-266
+ @ multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss
+
+ERROR in ./resources/assets/sass/app.scss
+Module build failed: ModuleBuildError: Module build failed: Error: Cannot find module 'node-sass'
+    at Function.Module._resolveFilename (module.js:536:15)
+    at Function.Module._load (module.js:466:25)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\code\php\Laravel\node_modules\sass-loader\lib\loader.js:3:14)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:13:17)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+    at moduleFactory.create (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:456:10)
+    at factory (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:241:5)
+    at applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:94:13)
+    at D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:268:11
+    at NormalModuleFactory.params.normalModuleFactory.plugin (D:\code\php\Laravel\node_modules\webpack\lib\CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:272:13)
+    at runLoaders (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:195:19)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:364:11
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:170:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:27:11)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:173:18
+    at loadLoader (D:\code\php\Laravel\node_modules\loader-runner\lib\loadLoader.js:36:3)
+    at iteratePitchingLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:169:2)
+    at runLoaders (D:\code\php\Laravel\node_modules\loader-runner\lib\LoaderRunner.js:362:2)
+    at NormalModule.doBuild (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:182:3)
+    at NormalModule.build (D:\code\php\Laravel\node_modules\webpack\lib\NormalModule.js:275:15)
+    at Compilation.buildModule (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:151:10)
+    at moduleFactory.create (D:\code\php\Laravel\node_modules\webpack\lib\Compilation.js:456:10)
+    at factory (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:241:5)
+    at applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:94:13)
+    at D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:268:11
+    at NormalModuleFactory.params.normalModuleFactory.plugin (D:\code\php\Laravel\node_modules\webpack\lib\CompatibilityPlugin.js:52:5)
+    at NormalModuleFactory.applyPluginsAsyncWaterfall (D:\code\php\Laravel\node_modules\tapable\lib\Tapable.js:272:13)
+    at resolver (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:69:10)
+    at process.nextTick (D:\code\php\Laravel\node_modules\webpack\lib\NormalModuleFactory.js:194:7)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+ @ ./resources/assets/sass/app.scss
+ @ multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss
